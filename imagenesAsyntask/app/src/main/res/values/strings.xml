@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">imagenesAsyntask</string>
+    <string name="TextView">Practicas</string>
+    <string name="edit_Usu">Usuario</string>
+    <string name="edit_Pas">Contraseña</string>
+    <string name="button1">Ingresar</string>
+    <string name="TextView2">Login Succesfull</string>
+</resources>

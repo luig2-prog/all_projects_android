@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/cardViewV"
+        android:layout_marginBottom="0px"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/r"
+            android:background="@drawable/img15"
+            >
+
+            <ImageView
+                android:id="@+id/imagenCancion"
+                android:layout_width="163dp"
+                android:layout_height="198dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="239dp"
+                android:layout_marginBottom="17dp"
+                app:srcCompat="@drawable/busqueda2"
+                android:background="#A66C60"
+                />
+
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="190dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/blackgroundsregular"
+                android:text="TextView"
+                android:textSize="38dp" />
+
+            <TextView
+                android:id="@+id/textArtista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textNombre"
+                android:textSize="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/blackgroundsregular"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textAño"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:textSize="15dp"
+                android:layout_below="@+id/textArtista"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="TextView"
+                android:fontFamily="@font/blackgroundsregular"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
